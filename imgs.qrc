@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>data/movie.json</file>
+        <file>data/1.webp</file>
+        <file>data/2.webp</file>
+        <file>data/3.webp</file>
+        <file>data/4.webp</file>
+        <file>data/5.webp</file>
+        <file>data/6.webp</file>
+    </qresource>
+    <qresource prefix="/n"/>
+</RCC>

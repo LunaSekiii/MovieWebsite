@@ -3,6 +3,8 @@
 #include <QApplication>
 #include <QLocale>
 #include <QTranslator>
+#include <QDialog>
+#include <QLabel>
 
 int main(int argc, char *argv[])
 {
@@ -18,6 +20,8 @@ int main(int argc, char *argv[])
         }
     }
     MainWindow w;
+    w.resize(1000, 600);
+    w.move(460, 240);
     w.show();
     return a.exec();
 }
